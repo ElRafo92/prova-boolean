@@ -1,0 +1,93 @@
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url(background.jpg);
+  background-position: 0 0;
+  background-size: cover;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* container nero */
+.container{
+  width: 900px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+}
+
+.container2{
+  margin: 10%;
+}
+/* header */
+header{
+  text-align: center;
+}
+
+img{
+  width: 200px;
+}
+
+h1{
+  color: #80ff00;
+}
+
+/* nav */
+nav{
+  background-color: #80ff00;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* main */
+.options{
+  margin-top: 25px;
+}
+
+h2{
+  display: inline-block;
+}
+
+.arrow{
+  display: inline-block;
+}
+
+.vehicle-name{
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/* opzioni */
+.option-box{
+  margin: auto;
+  padding-top: 15px;
+}
+
+/* autonomy */
+.yellow{
+  background-color: yellow;
+  color: yellow;
+  width: 40%;
+  border-radius: 3px;
+}
+
+.green{
+  background-color: green;
+  color: green;
+  width: 75%;
+  border-radius: 3px;
+}
+
+.red{
+  background-color: red;
+  color: red;
+  width: 15%;
+  border-radius: 3px;
+}
+/* autonomy */
